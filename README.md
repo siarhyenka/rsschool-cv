@@ -1,4 +1,3 @@
-# rsschool-cv
-https://siarhyenka.github.io/rsschool-cv/cv
-https://siarhyenka.github.io/rsschool-cv/
 
+https://siarhuenka.github.io/rsschool-cv/
+https://siarhyenka.github.io/rsschool-cv/cv
