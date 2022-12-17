@@ -69,3 +69,12 @@ body {
   .nav-link:hover::after {
     width: 100%;
   }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section {
+    width: 50%;
+  }
