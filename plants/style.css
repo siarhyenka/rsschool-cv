@@ -84,13 +84,25 @@ body {
   .section-home {
     background-color: #EDF2EC;
     display: flex;
-    /*width: 100%;*/
+    justify-content: space-between;
+    width: 100%;
   }
-  .section-home-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .span {
+    color: #499A18;
+  }
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
   }
   .button {
     width: 158px;
@@ -102,13 +114,23 @@ body {
   .logo-home {
     width: 448.8px;
     height: 407.36px;
+    margin: 62px 0 62px 109px;
   }
   .about-section {
     display: flex;
+    justify-content: space-between;
   }
   .logo-about {
     width: 464px;
     height: 479px;
+  }
+  h2 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #E06733;
   }
   .footer {
     border: 1px solid green;
