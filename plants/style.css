@@ -1,18 +1,35 @@
 body {
+    font-family: 'Inika', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    background-color: #EDF2EC;
+    height: 134px;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.header {
-    background-color: #EDF2EC;
-}
-.logo {
+.navbar {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    
+    padding: 26px 109px 42px 111px;
+
 }
 
 .nav-list {
@@ -23,5 +40,76 @@ body {
   }
 
   .nav-item {
-    margin-right: 20px;
+    margin-left: 46px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  .home-item {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  .logo {
+    width: 79.17px;
+    height: 21.04px;  
+  }
+
+  .nav-link:link, .nav-link:visited {
+    text-decoration: none;
+    color: #010201;
+  }
+
+  .nav-link:hover {
+    color: #E06733;
+  }
+
+  .main {
+    border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .section-home {
+    background-color: #EDF2EC;
+    display: flex;
+    /*width: 100%;*/
+  }
+  .section-home-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  .button {
+    width: 158px;
+    height: 44px;
+    border: 1px solid #E06733;
+    border-radius: 10px;
+  }
+
+  .logo-home {
+    width: 448.8px;
+    height: 407.36px;
+  }
+  .about-section {
+    display: flex;
+  }
+  .logo-about {
+    width: 464px;
+    height: 479px;
+  }
+  .footer {
+    border: 1px solid green;
   }

@@ -1,29 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@300;400;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
     <title>Plants</title>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo">
-                <img src="../plants/img/logo.png" alt="logo">
+            <div class="navbar">
+                <img src="../plants/img/logo.png" alt="logo" class="logo">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item home-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#about us" class="nav-link">About us</a></li>
+                        <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+                        <li class="nav-item"><a href="#price" class="nav-link">Price</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link nav-contacts">Contacts</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#about us" class="nav-link">About us</a></li>
-                    <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
-                    <li class="nav-item"><a href="#price" class="nav-link">Price</a></li>
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
-    
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-home">
+                <img src="img/leafs.png" alt="logo2" class="logo-home">
+                <div class="section-home-title">
+                    <h1>We grow plants and give you oxygen</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has
+                        been the <br> industry's standard dummy text ever since the 1500s.</p>
+                    <button class="button">Learn more</button>
+                </div>
+        
+            </section>
+            <section class="section about-section">
+                <div class="section-about-title">
+                    <h1>We are professional experienced gardeners</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. </p>
+                </div>
+                <img src="img/houseplant 1.png" alt="logo-about" class="logo-about">
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container"></div>
+    </footer>
+
 </body>
+
 </html>
