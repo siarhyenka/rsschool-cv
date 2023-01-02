@@ -31,6 +31,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 26px 109px 42px 111px;
+    
 
 }
 
@@ -39,8 +40,9 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    
   }
-
+  
   .nav-item {
     margin-left: 46px;
     font-family: 'Inika';
@@ -73,7 +75,6 @@ body {
   }
 
   .main {
-    border: 1px solid red;
     margin: 0px;
     padding: 0px;
   }
@@ -93,6 +94,7 @@ body {
     width: 100%;
   }
   .section-home-title {
+    padding-left: 20px;
     width: 50%;
   }
   h1 {
@@ -115,8 +117,15 @@ body {
   .button {
     width: 158px;
     height: 44px;
+    margin-top: 20px;
     border: 1px solid #E06733;
     border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
   }
 
   .logo-container {
@@ -127,6 +136,8 @@ body {
 
   .logo-home {
     max-width: 450px;
+    width: 448.8px;
+    height: 407.36px;
 
   }
   .about-section {
@@ -183,6 +194,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
+    margin-right: 20px;
   }
   .service-botton:hover {
     color: white;
@@ -202,7 +214,6 @@ body {
   .logo-service {
     width: 329px;
     height: 350px;
-    margin-bottom: -5px;
     
   }
   h3 {
@@ -229,4 +240,67 @@ body {
     border: 1px solid #E3E1D5;
     border-radius: 0px 0px 20px 20px;
     width: 329px;
+  }
+
+  .prices-accordeon {
+    width: 332px;
+    height: 282.01px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+  .accordeon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .accordeon-item{
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    margin-top: 34px;
+  }
+  .accordeon-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+    padding-top: 16px;
+  }
+
+  .price-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-price-item {
+    width: 152px;
+    height: 174.99px;
+  }
+
+  .price-section-right {
+    text-align: right;
+    width: 50%;
+  }
+
+  .text-price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 38px;
+  }
+  .title-price {
+    margin-bottom: 39px;
   }
