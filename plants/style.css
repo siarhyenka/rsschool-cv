@@ -347,3 +347,30 @@ body {
   .accordeon-contacts{
     margin-left: 64px;
   }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-data {
+    display: flex;
+  }
+
+  .footer-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    padding-right: 20px;
+  }
+  .logo-footer {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+  }
+  .social-list {
+    text-align: center;
+  }
+ 
