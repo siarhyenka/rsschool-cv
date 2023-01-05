@@ -103,6 +103,7 @@ body {
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
+    color: #717171;
   }
   .span {
     color: #499A18;
@@ -242,30 +243,35 @@ body {
     width: 329px;
   }
 
-  .prices-accordeon {
+  .prices-accordion {
     width: 332px;
     height: 282.01px;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
     margin-top: 60px;
   }
-  .accordeon {
+  .accordion {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  summary::-webkit-details-marker {
+  summary::marker {
     display: none;
   }
 
-  .accordeon-item{
+  .accordion-item{
+    margin: 0px;
+    padding: 0px;
+  }
+  .accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 250px;
     height: 50px;
     background: #EDF2EC;
     border-radius: 20px;
-    margin-top: 34px;
-  }
-  .accordeon-title {
+    margin: 34px 41px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -273,7 +279,13 @@ body {
     line-height: 20px;
     color: #000000;
     text-align: center;
-    padding-top: 16px;
+    list-style: none;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .logo-accordion {
+    width: 16px;
+    height: 16px;
   }
 
   .price-wrapper {
@@ -308,16 +320,19 @@ body {
   .section-contacts {
     width: 100%;
     background-color: #EDF2EC;
+    padding-bottom: 0px;
   }
 
   .contacts {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
   }
   .logo-woman {
     width: 400px;
     height: 496.99px;
   }
+  
   .contacts-title {
     font-family: 'Inika';
     font-style: normal;
@@ -325,6 +340,7 @@ body {
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
+    margin-top: 0px;
     
   }
   .contacts-item {
@@ -334,8 +350,12 @@ body {
     background: #D6E7D2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px;
+    padding: 0px;
   }
   .contacts-item-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -343,13 +363,19 @@ body {
     line-height: 40px;
     letter-spacing: 0.05em;
     color: #717171;
+    list-style: none;
+    padding: 5px 35px 5px 20px;
   }
   .accordeon-contacts{
     margin-left: 64px;
   }
+  footer {
+    padding: 40px 109px;
+  }
   .footer-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .footer-data {
@@ -364,12 +390,15 @@ body {
     line-height: 50px;
     color: #000000;
     padding-right: 20px;
+    margin: 0px;
   }
+
   .logo-footer {
     width: 32px;
     height: 32px;
     margin-right: 20px;
   }
+
   .social-list {
     text-align: center;
   }
