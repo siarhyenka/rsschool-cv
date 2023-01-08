@@ -343,6 +343,7 @@ body {
     margin-top: 0px;
     
   }
+  
   .contacts-item {
     width: 450px;
     height: 50px;
@@ -352,6 +353,7 @@ body {
     border-radius: 0px;
     padding: 0px;
   }
+
   .contacts-item-title{
     display: flex;
     justify-content: space-between;
@@ -366,12 +368,15 @@ body {
     list-style: none;
     padding: 5px 35px 5px 20px;
   }
+
   .accordeon-contacts{
     margin-left: 64px;
   }
+
   footer {
     padding: 40px 109px;
   }
+
   .footer-content {
     display: flex;
     justify-content: space-between;
