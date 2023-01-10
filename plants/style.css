@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth; 
+}
+w
 body {
     font-family: 'Inika', serif;
     font-family: 'Inter', sans-serif;
@@ -404,7 +408,8 @@ body {
     margin-right: 20px;
   }
 
-  .social-list {
-    text-align: center;
+  .social-item {
+    display: flex;
+    list-style-type: none;
   }
  
